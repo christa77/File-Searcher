@@ -1,0 +1,31 @@
+HW2 Feedback
+
+
+Test Suite: 305/305
+
+
+Valgrind: 5/5
+
+
+Modularity: 4/5
+(-1) Re-implemented the functionality of DocTable_GetDocID instead of calling it in DocTable_Add
+
+
+Blending with starter code: 4/5
+(-1) Casts things to void* instead of a more appropriate type.
+
+
+Robustness and error checking: 4/5
+(-1) Fails to free memory/resources on error. doesn't close open file on error in ReadFileToString.
+
+
+Comments and other style issues: 4/5
+(-1) Tabs or inconsistant whitespace makes it hard to read. ReadFileToString
+
+
+Search shell: 2/5
+(-2) Failing to free MemIndex and/or DocTable (or other memory leak upon exit)
+(-1) searchshell has invalid writes, reads, jumps on uninitialized values on at least 1 input.
+
+
+Extra Credit: 0/5

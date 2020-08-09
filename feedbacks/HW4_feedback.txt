@@ -1,0 +1,22 @@
+HW4 Feedback
+
+
+Test Suite: 220/220
+
+
+Valgrind: 5/5
+
+
+Modularity: 5/5
+
+
+Robustness and error checking: 10/10
+
+
+Comments, Blending with starter code and other style issues:  5/5
+
+
+Server Test:  10/10
+
+
+Extra Credit: 0/5
